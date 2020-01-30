@@ -13,3 +13,26 @@
   4. To load the model and classify directly, run Model-Road.ipynb
 
 ## Summary
+
+MATLAB simul data is used to train the model. Below is the total training examples visualized by label type.
+
+![Image](./img/1-training-examples-by-label-type.png)
+
+The objective of this project is to classify the given input into 6 different accident types; Branch Trip, Generation Loss, Line Fault, Load Loss, Shunt Loss, and V Reference.
+
+![Image](./img/2-simul-data-visi.png)
+
+Necessary process before training such as data preprocessing, training/test data division, normalization, model tuning etc. is applied in order to get the accurate result.
+
+Below shows the accuracy and loss of the the neural network training result.
+
+![Image](./img/4-model-accuracy-and-loss.png)
+
+We can check the accuracy of classified labels using confusion matrix.
+
+![Image](./img/5-confusion-matrix.png)
+
+Now we want to apply real-world data to classification. Here is the example of the PMU dataset. This is the line fault accident recorded in Siheung power system on July, 2nd.
+
+![Image](./img/6-pmu-data-visi.png)
+
