@@ -32,10 +32,10 @@ We can check the accuracy of classified labels using confusion matrix.
 
 ![Image](./img/5-confusion-matrix.png)
 
-Now we want to apply real-world data to classification. Here is the example of the PMU dataset. This is the line fault accident recorded in Siheung power system on July, 2nd.
+Now we want to apply real-world data to classification. Here is the example of the PMU dataset. This is the line fault accident recorded in Migeum power system on June, 25th.
 
 ![Image](./img/6-pmu-data-visi.png)
 
-Not the fancy one, but the classification result appears to be line fault. Same process can be done with the different input 'MIGEUM_0625.csv' in 'PMU-dataset' folder. 
+Not the fancy one, but the classification result appears to be line fault. Same process can be done with the different input 'SINSIHEUNG_0702.csv' in 'PMU-dataset' folder, which is branch trip accident data. Navigate to the 'Load-Model.ipynb' to check its classification result.
 
 ![Image](./img/7-classification-result.png)
