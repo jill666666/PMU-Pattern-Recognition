@@ -36,3 +36,6 @@ Now we want to apply real-world data to classification. Here is the example of t
 
 ![Image](./img/6-pmu-data-visi.png)
 
+Not the fancy one, but the classification result appears to be line fault. Same process can be done with the different input 'MIGEUM_0625.csv' in 'PMU-dataset' folder. 
+
+![Image](./img/7-classification-result.png)
