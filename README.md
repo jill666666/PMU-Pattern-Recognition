@@ -10,7 +10,7 @@
   1. SQL-Datahog-1cy.ipynb (Run SQL-Datahog-2cy.ipynb to add more data)
   2. Manually save CSV file to SQL Database
   3. PMU-Pattern-Recognition.ipynb
-  4. To load the model and classify directly, run Model-Road.ipynb
+  4. To load the model and classify directly, run Load-Model.ipynb
 
 ## Summary
 
